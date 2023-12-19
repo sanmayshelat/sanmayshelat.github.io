@@ -17,6 +17,7 @@ katex = true # enable KaTeX support
 subtitle = "Data Scientist with a PhD in Behavioural Economics, specializing in applied econometrics, causal inference, and experimentation."
 favicon = "img/favicon-photo.ico"
 
+cv_url = "uploads/Sanmay Shelat Resume.pdf"
 
 
 # Social Tags
@@ -36,23 +37,15 @@ name = "LinkedIn"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/sanmayshelat/"
 
-[[params.social]]
-name = "CV"
-icon = "download"
-url = "uploads/Sanmay Shelat Resume.pdf"
 
+# Navigation
 
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
+name = "Posts"
 url = "/posts"
-weight = 2
+weight = 1
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 3
+weight = 2

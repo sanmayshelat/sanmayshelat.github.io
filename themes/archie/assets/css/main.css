@@ -181,6 +181,7 @@ footer {
 }
 .footer-info {
   padding: var(--footer-padding);
+  font-size: 10px;
 }
 
 /* Common */
