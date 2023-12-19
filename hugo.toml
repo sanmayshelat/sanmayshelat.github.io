@@ -15,9 +15,9 @@ mathjax = false # enable MathJax support
 katex = true # enable KaTeX support
 
 subtitle = "Data Scientist with a PhD in Behavioural Economics, specializing in applied econometrics, causal inference, and experimentation."
-favicon = "img/favicon-photo.ico"
+favicon = "/img/favicon-photo.ico"
 
-cv_url = "uploads/Sanmay Shelat Resume.pdf"
+cv_url = "/uploads/Sanmay Shelat Resume.pdf"
 
 
 # Social Tags
