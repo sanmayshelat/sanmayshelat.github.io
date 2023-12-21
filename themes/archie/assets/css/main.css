@@ -54,6 +54,7 @@ a:hover {
 }
 
 ul {
+  font-family: 'Fira Sans', sans-serif;
   list-style: none;
   padding-left: 2ch;
 }
@@ -62,6 +63,23 @@ ul li {
 }
 ul > li::before {
   content: '* ';
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+ol {
+  counter-reset: my-counter;
+  font-family: 'Fira Sans', sans-serif;
+  list-style: none;
+  padding-left: 2ch;
+}
+ol li {
+  text-indent: -2ch;
+  counter-increment: my-counter;
+}
+ol > li::before {
+  content: counter(my-counter)' ';
+  font-family: 'Roboto Mono', monospace;
   font-weight: bold;
 }
 
